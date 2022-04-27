@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Membuat Form Input Biodata PHP</title>
+    <style>
+        div {padding: 4px};
+    </style>
+</head>
+<body>
+    <center><h1> BIODATA </h1></center>
+        <form action="biodataphp.php" method="POST">
+            <div>
+                <center><label>Nama&emsp;&emsp;&emsp; :</label>
+                <input name="nama" type="text"> </center>
+            </div>
+            <div>
+                <center> <label>NPM&emsp;&emsp;&emsp; :</label> 
+                <input name="npm" type="text"> </center>
+            </div>
+            <div>
+                <center> <label>Jenis Kelamin :</label>              
+                <input name="jenis_kelamin" value="Laki_laki" type="radio">Laki-laki
+                <input name="jenis_kelamin" value="Perempuan" type="radio">Perempuan </center>
+            </div>
+            <div>
+                <center> <label>Alamat&emsp;&emsp;&ensp; :</label> 
+                <input name="alamat" type="text"> </center>
+            </div>
+            <div>
+                <center><input type="submit" value="Simpan"></center>
+            </div>
+        </form>
+</body>
+</html>
